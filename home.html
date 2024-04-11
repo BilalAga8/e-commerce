@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script defer src="function.js"></script>
+    <link rel="stylesheet" href="glide.core.css" />
+    <link rel="stylesheet" href="glide.theme.css" />
+    <title>E=commerce</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="herosction">
+        <div class="hero-top">
+          <div class="item1">
+            <button class="hero-button hero-button-item1">Buy Now</button>
+          </div>
+          <div class="item2">
+            <button class="hero-button hero-button-item2">Shop now</button>
+          </div>
+          <div class="item3">
+            <button class="hero-button hero-button-item3">Buy now</button>
+          </div>
+        </div>
+        <div class="bottom-hero">
+          <div class="hero-card">
+            <span class="hero-card-tittle"
+              >TATTOO 
+              SUPPLIES</span
+            >
+            <img class="hero-card-img" src="/img/9305.png" alt="green" />
+            <button class="hero-button hero-card-button">Add Card</button>
+          </div>
+          <div class="hero-card">
+            <span class="hero-card-tittle"
+              >TATTOO 
+              SUPPLIES</span
+            >
+            <img class="hero-card-img" src="/img/ed5ae8.png" alt="pink" />
+            <button class="hero-button hero-card-button">Add Card</button>
+          </div>
+          <div class="hero-card">
+            <span class="hero-card-tittle"
+              >TATTOO 
+              SUPPLIES</span
+            >
+            <img class="hero-card-img" src="/img/ea794f.png" alt="orange" />
+            <button class="hero-button hero-card-button">Add Card</button>
+          </div>
+          <div class="hero-card">
+            <span class="hero-card-tittle"
+              >TATTOO 
+              SUPPLIES</span
+            >
+            <img class="hero-card-img" src="/img/ac1de0.png" alt="purple" />
+            <button class="hero-button hero-card-button">Add Card</button>
+          </div>
+          <div class="hero-card">
+            <span class="hero-card-tittle"
+              >TATTOO 
+              SUPPLIES</span
+            >
+            <img class="hero-card-img" src="/img/fffff.png" alt="blue" />
+            <button class="hero-button hero-card-button">Add Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <h3 class="products-tittle">NEW PRODUCTS</h3>
+        <div class="glide">
+          <div class="glide__track glide-content" data-glide-el="track">
+            <ul id="product-slider" class="glide__slides">
+              <template id="product-template">
+                <li class="glide__slide">
+                  <div class="product-container">
+                    <img src="" alt="" />
+                    <span class="product-price"></span>
+                    <span class="product-content"></span>
+                  </div>
+                </li>
+              </template>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                  d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                />
+              </svg>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
